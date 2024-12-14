@@ -1,0 +1,226 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.brokr"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml
+10    <!-- Include required permissions for Google Maps API to run. -->
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+11-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+12-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:22-64
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+17
+18    <queries>
+18-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+19
+20        <!-- Needs to be explicitly declared on Android R+ -->
+21        <package android:name="com.google.android.apps.maps" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+21-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+22    </queries>
+23
+24    <permission
+24-->[androidx.core:core:1.9.0] /Users/raymondmauge/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+25        android:name="com.example.brokr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.9.0] /Users/raymondmauge/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.9.0] /Users/raymondmauge/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.example.brokr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.9.0] /Users/raymondmauge/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.9.0] /Users/raymondmauge/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+29
+30    <application
+31        android:name="android.app.Application"
+31-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:5:9-42
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.9.0] /Users/raymondmauge/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:6:9-43
+34        android:label="BrokrApp" >
+34-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:4:9-33
+35        <activity
+35-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:7:9-30:20
+36            android:name="com.example.brokr.MainActivity"
+36-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:8:13-41
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:12:13-163
+38            android:exported="true"
+38-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:9:13-36
+39            android:hardwareAccelerated="true"
+39-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:13:13-47
+40            android:launchMode="singleTop"
+40-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:10:13-43
+41            android:theme="@style/LaunchTheme"
+41-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:11:13-47
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:14:13-55
+43
+44            <!--
+45            Specifies an Android theme to apply to this Activity as soon as
+46                 the
+47            Android process has started. This theme is visible to the user
+48                 while
+49            the Flutter UI initializes. After that, this theme continues
+50                 to
+51            determine the Window background behind the Flutter UI.
+52            -->
+53            <meta-data
+53-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:22:13-25:15
+54                android:name="io.flutter.embedding.android.NormalTheme"
+54-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:23:17-72
+55                android:resource="@style/NormalTheme" />
+55-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:24:17-54
+56
+57            <intent-filter>
+57-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:26:13-29:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:27:17-69
+58-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:27:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:28:17-77
+60-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:28:27-74
+61            </intent-filter>
+62        </activity>
+63        <!--
+64        Don't delete the meta-data below.
+65             This is used by the Flutter tool to
+66        generate GeneratedPluginRegistrant.java
+67        -->
+68        <meta-data
+68-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:34:9-36:33
+69            android:name="flutterEmbedding"
+69-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:35:13-44
+70            android:value="2" />
+70-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:36:13-30
+71        <meta-data
+71-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:37:13-38:71
+72            android:name="com.google.android.geo.API_KEY"
+72-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:37:24-69
+73            android:value="AIzaSyDy-uoC7NTV52ghbZu7bDQT6M227FigwjI" />
+73-->/Users/raymondmauge/Repo Brokr-flutter/repo-main/android/app/src/main/AndroidManifest.xml:38:13-68
+74        <!--
+75           Declares a provider which allows us to store files to share in
+76           '.../caches/share_plus' and grant the receiving action access
+77        -->
+78        <provider
+78-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:20
+79            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+79-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-77
+80            android:authorities="com.example.brokr.flutter.share_provider"
+80-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-74
+81            android:exported="false"
+81-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+82            android:grantUriPermissions="true" >
+82-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-47
+83            <meta-data
+83-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:68
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-67
+85                android:resource="@xml/flutter_share_file_paths" />
+85-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-65
+86        </provider>
+87        <!--
+88           This manifest declared broadcast receiver allows us to use an explicit
+89           Intent when creating a PendingItent to be informed of the user's choice
+90        -->
+91        <receiver
+91-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-34:20
+92            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+92-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-82
+93            android:exported="true" >
+93-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+94            <intent-filter>
+94-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-33:29
+95                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+95-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-65
+95-->[:share_plus] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/share_plus/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-62
+96            </intent-filter>
+97        </receiver>
+98
+99        <activity
+99-->[:url_launcher_android] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+100            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+100-->[:url_launcher_android] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+101            android:exported="false"
+101-->[:url_launcher_android] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+102            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+102-->[:url_launcher_android] /Users/raymondmauge/Repo Brokr-flutter/repo-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+103
+104        <uses-library
+104-->[androidx.window:window:1.0.0-beta04] /Users/raymondmauge/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+105            android:name="androidx.window.extensions"
+105-->[androidx.window:window:1.0.0-beta04] /Users/raymondmauge/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0-beta04] /Users/raymondmauge/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+107        <uses-library
+107-->[androidx.window:window:1.0.0-beta04] /Users/raymondmauge/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+108            android:name="androidx.window.sidecar"
+108-->[androidx.window:window:1.0.0-beta04] /Users/raymondmauge/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0-beta04] /Users/raymondmauge/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+110
+111        <activity
+111-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:23:9-27:75
+112            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+112-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:24:13-93
+113            android:excludeFromRecents="true"
+113-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:25:13-46
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:26:13-37
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+115-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:27:13-72
+116        <!--
+117            Service handling Google Sign-In user revocation. For apps that do not integrate with
+118            Google Sign-In, this service will never be started.
+119        -->
+120        <service
+120-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:33:9-37:51
+121            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+121-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:34:13-89
+122            android:exported="true"
+122-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:35:13-36
+123            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+123-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:36:13-107
+124            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+124-->[com.google.android.gms:play-services-auth:20.4.0] /Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:37:13-48
+125        <uses-library
+125-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+126            android:name="org.apache.http.legacy"
+126-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+127            android:required="false" />
+127-->[com.google.android.gms:play-services-maps:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/e201e9ad108cf5dd9bf454f2a581d29d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+128
+129        <activity
+129-->[com.google.android.gms:play-services-base:18.0.1] /Users/raymondmauge/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+130            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+130-->[com.google.android.gms:play-services-base:18.0.1] /Users/raymondmauge/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+131            android:exported="false"
+131-->[com.google.android.gms:play-services-base:18.0.1] /Users/raymondmauge/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+132-->[com.google.android.gms:play-services-base:18.0.1] /Users/raymondmauge/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+133
+134        <meta-data
+134-->[com.google.android.gms:play-services-basement:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/6b0daa5fb4c2eb7e8b55778df9b972f6/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+135            android:name="com.google.android.gms.version"
+135-->[com.google.android.gms:play-services-basement:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/6b0daa5fb4c2eb7e8b55778df9b972f6/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+136            android:value="@integer/google_play_services_version" />
+136-->[com.google.android.gms:play-services-basement:18.1.0] /Users/raymondmauge/.gradle/caches/transforms-3/6b0daa5fb4c2eb7e8b55778df9b972f6/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+137    </application>
+138
+139</manifest>

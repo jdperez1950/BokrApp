@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/raymondmauge/Repo Brokr-flutter/repo-main/build/smart_auth/intermediates/merged_res/release/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/raymondmauge/Repo Brokr-flutter/repo-main/build/smart_auth/intermediates/merged_res/release/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/raymondmauge/Repo Brokr-flutter/repo-main/build/smart_auth/intermediates/merged_res/release/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/raymondmauge/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    }
+]
